@@ -15,5 +15,5 @@ for member in ahmad_visited_city.intersection(faris_visited_city):
 print("#################################")
 
 
-for member in ahmad_visited_city.difference(faris_visited_city):
+for member in faris_visited_city.difference(ahmad_visited_city):
     print(member)
